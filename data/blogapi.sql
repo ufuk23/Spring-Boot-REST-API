@@ -132,6 +132,7 @@ CREATE TABLE `posts` (
   `title` varchar(255) NOT NULL,
   `body` text NOT NULL,
   `user_id` bigint(19) unsigned DEFAULT NULL,
+  `category_id` bigint(19) unsigned DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `created_by` bigint(19) unsigned DEFAULT NULL,
